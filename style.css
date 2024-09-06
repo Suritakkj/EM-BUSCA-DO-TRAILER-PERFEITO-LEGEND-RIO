@@ -1,0 +1,49 @@
+body {
+    background-color: #f7430c;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+button {
+    background-color: #deec10;
+    color: rgb(240, 13, 13);
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: bold;
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 50%;
+    border:thin solid;
+    color:rgb(19, 121, 65);
+    padding-top: 30px; 
+}
+
+header {
+    font-size: 32px;
+    color: rgba(252, 227, 2, 0.651);
+    padding-top: 50px;
+    margin:0;
+  }
